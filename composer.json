@@ -1,0 +1,19 @@
+{
+    "name": "rahulswt7/gofugly",
+    "description": "A library for jokes, quotes and many more",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "6.0"
+    },
+    "authors": [
+        {
+            "name": "Rahul",
+            "email": "rahulsingh.ranjan06@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gofugly\\": "gofugly/"
+        }
+    }
+}
